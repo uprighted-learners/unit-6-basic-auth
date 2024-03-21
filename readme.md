@@ -4,16 +4,9 @@
 
 In this lab we'll be creating a simple username and password authentication system, allowing users to access a personalized dashboard. For security reasons we will also be encrypting their passwords on the database using bcrypt so that no one (other than the user) will know what their password is.
 
-## Structuring  the Directory
-
-First create a new directory for this lab. In that directory, which I shall refer to as "basic-auth," run `npm init -y` and then install:
-
-* bcrypt
-* express
-* mongoose
-* dotenv
-
 ## Setting up the Server
+
+First, clone the lab down to your machine. Then `npm install` the project's dependencies
 
 Set up an express app with as a static file server, serving files from the "public" directory. We'll need to read some form data so we will also want to use the `express.urlencoded()` middleware for reading form bodies.
 
