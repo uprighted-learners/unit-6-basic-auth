@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+  </head>
+  <body>
+    <form action="/login" method="post">
+      <fieldset>
+        <h1>Login</h1>
+        <div>
+          <label for="login-username">Username</label>
+          <input type="text" name="username" id="login-username" />
+        </div>
+        <div>
+          <label for="login-password">Password</label>
+          <input type="password" name="password" id="login-password" />
+        </div>
+        <div>
+          <button type="submit">Submit</button>
+        </div>
+      </fieldset>
+    </form>
+    <form action="/signup" method="post">
+      <fieldset>
+        <h1>Sign Up</h1>
+        <div>
+          <label for="signup-username">Username</label>
+          <input type="text" name="username" id="signup-username" />
+        </div>
+        <div>
+          <label for="signup-password">Password</label>
+          <input type="password" name="password" id="signup-password" />
+        </div>
+        <div>
+          <button type="submit">Submit</button>
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
